@@ -3,6 +3,15 @@ package com.ecpe308.sample;
 public class Pet {
     public String name, breed; //persian, labrador, golden retriever
     public String pet_type;  //cat/dog
+    public String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     public String getName(){
         return name;
@@ -21,9 +30,9 @@ public class Pet {
     }
 
     public void setBreed (String breed){
-        this.breed = breed; 
+        this.breed = breed;
     }
-    
+
     public void setPet_type (String pet_type){
         this.pet_type= pet_type;
     }
